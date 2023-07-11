@@ -1,0 +1,50 @@
+/* css reset start */
+* {
+    margin: 0;
+    padding: 0;
+}
+/* css reset end */
+
+/* General styles start */
+body {
+    font-family: 'Lato', sans-serif;
+    color: rgba(39, 39, 39, 0.60);;
+}
+/* General styles end */
+
+/* common styles start */
+.section-padding {
+    padding: 130px;
+}
+
+.section-title {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.section-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.clr-primary {
+    color: #E55473;;
+}
+
+.btn {
+    border-radius: 8px;
+    background: #E55473;
+
+    padding: 30px 18px;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+}
+/* common styles end */
