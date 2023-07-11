@@ -2,6 +2,7 @@
 * {
     margin: 0;
     padding: 0;
+    /* border: 1px solid red; */
 }
 /* css reset end */
 
@@ -14,13 +15,13 @@ body {
 
 /* common styles start */
 .section-padding {
-    padding: 0 100px;
+    padding: 0 130px;
 }
 
 .section-title {
     color: #272727;
     font-family: Lato;
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 800;
 }
 
@@ -38,20 +39,26 @@ body {
 .btn {
     border-radius: 8px;
     background: #E55473;
+    border: none;
 
-    padding: 30px 18px;
+    padding: 18px 31px;
     color: #FFF;
     font-family: Lato;
     font-size: 20px;
     font-weight: 700;
+    cursor: pointer;
 }
+
+.btn:hover {
+    background: #e55473c7;
+}
+
 /* common styles end */
 
-/* header section start*/
+/* header section*/
 .header {
     height: 100vh;
     background: rgb(229, 84, 115, 0.15);
-    border: 1px solid red;
 }
 
 /* banner styles start*/
@@ -60,12 +67,12 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    gap: 20px;
+
     height: 100%;
-    border: 1px solid red;
 }
 
 .banner-content {
-    border: 1px solid red;
     align-self: center;
 
     width: 55%;
@@ -73,15 +80,90 @@ body {
 
 .main-heading {
     color: #272727;
-    font-size: 70px;
-    font-weight: 800;
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.banner-content > .section-description{
+    margin: 25px 0;
+    width: 85%;
 }
 
 .banner-image {
     width: 500px;
-    border: 1px solid red;
 }
 
 .banner-image img{
     width: 100%;
 }
+/* banner styles end*/
+
+/* main section */
+/* features styles start */
+
+.features-container {
+    padding: 100px 0;
+}
+
+.features-container > h2{
+    text-align: center;
+    margin-bottom: 24px;
+    
+}
+.features-container > p{
+    margin: auto;
+    text-align: center;
+    width: 40%;
+    margin: auto;
+}
+
+.flower-trees {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.flower-tree-container {
+    width: 340px;
+    height: 400px; 
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.flower-tree-container img{
+    width: 240px;
+}
+
+
+.rose-flower-tree {
+    padding-bottom: 60px;
+}
+
+.flower-tree-content {
+    color: #272727;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+
+    padding-top: 30px;
+}
+
+.rose-tree {
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.lily-tree {
+    background: rgba(71, 125, 17, 0.15);
+}
+
+/* features styles end */
+
+/* support section start */
+/* support section end */
