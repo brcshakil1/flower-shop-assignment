@@ -14,12 +14,11 @@ body {
 
 /* common styles start */
 .section-padding {
-    padding: 130px;
+    padding: 0 100px;
 }
 
 .section-title {
     color: #272727;
-    text-align: center;
     font-family: Lato;
     font-size: 40px;
     font-weight: 800;
@@ -27,7 +26,6 @@ body {
 
 .section-description {
     color: rgba(39, 39, 39, 0.60);
-    text-align: center;
     font-family: Lato;
     font-size: 18px;
     line-height: 30px;
@@ -48,3 +46,42 @@ body {
     font-weight: 700;
 }
 /* common styles end */
+
+/* header section start*/
+.header {
+    height: 100vh;
+    background: rgb(229, 84, 115, 0.15);
+    border: 1px solid red;
+}
+
+/* banner styles start*/
+
+.banner-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 100%;
+    border: 1px solid red;
+}
+
+.banner-content {
+    border: 1px solid red;
+    align-self: center;
+
+    width: 55%;
+}
+
+.main-heading {
+    color: #272727;
+    font-size: 70px;
+    font-weight: 800;
+}
+
+.banner-image {
+    width: 500px;
+    border: 1px solid red;
+}
+
+.banner-image img{
+    width: 100%;
+}
