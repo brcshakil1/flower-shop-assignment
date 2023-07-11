@@ -166,4 +166,21 @@ body {
 /* features styles end */
 
 /* support section start */
+.all-support-container {
+    padding: 40px 100px;
+    background: rgba(39, 39, 39, 0.1);
+    text-align: center;
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.support-desc {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 35px;
+}
 /* support section end */
